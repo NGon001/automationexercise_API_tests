@@ -1,0 +1,22 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "zod": "^3.24.4"
+  }
+}
